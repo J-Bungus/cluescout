@@ -63,7 +63,7 @@ def write():
 
 	json_object = json.dumps(defs.crossword_dictionary, indent=4)
 
-	with open(defs.CROSSWORD_JSON_FILE, 'a') as file:
+	with open(defs.CROSSWORD_JSON_FILE, 'w') as file:
 		file.write(json_object)
 
 def get_max_pages(url):

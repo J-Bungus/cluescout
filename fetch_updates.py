@@ -18,7 +18,6 @@ def update_dict():
 	try:
 		file = open(defs.CROSSWORD_JSON_FILE, "r")
 		defs.crossword_dictionary = json.load(file)
-
 	except:
 		print("Something went wrong when opening ", defs.CROSSWORD_JSON_FILE)
 		print("OVERWRITING...")

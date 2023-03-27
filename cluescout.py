@@ -10,7 +10,7 @@ from data_functions import *
 
 def main():
 	print("\n\n\n")
-	result = pyfiglet.figlet_format("ClueScout", font="roman")
+	result = pyfiglet.figlet_format("Clue Scout", font="roman")
 	print(result, end="")
 
 	try:
